@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { GithubFollowersComponent } from './github-followers.component';
+import { GithubFollowersComponent } from "./github-followers.component";
 
-describe('GithubFollowersComponent', () => {
+describe("GithubFollowersComponent", () => {
   let component: GithubFollowersComponent;
   let fixture: ComponentFixture<GithubFollowersComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GithubFollowersComponent ]
-    })
-    .compileComponents();
+      declarations: [GithubFollowersComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('GithubFollowersComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should be created', () => {
+  it("should be created", () => {
     expect(component).toBeTruthy();
   });
 });
